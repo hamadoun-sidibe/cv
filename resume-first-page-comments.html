@@ -1,0 +1,250 @@
+<!DOCTYPE html> <!-- to indicate that this is html 5 file  -->
+<!-- By convention programmer call the home page - index -->
+<!-- html boilerplate -->
+<html lang="en" dir="ltr">
+<!-- head is the part of code that holdes information about the webpage.
+      how it should handle the page. -->
+
+<head>
+  <!-- meta element gives extra meta data or associate data to the
+        html
+      how it should render or display the webpage-->
+  <!-- few examples
+    <meta charset="UTF-8"> for the character use
+    <meta name="description" content="Free Web tutorials"> description attribute,
+    what we see below the webpage reference in google
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta charset="utf-8">
+  <title> Hamadoun's Personal Site</title>
+</head>
+
+<body>
+  <!-- https://crop-circle.imageonline.co the website to circle photos -->
+  <!-- the alt attribute is used by google search algo, so write something meaningful -->
+  <table cellspacing="20">
+    <tr>
+      <td><img src="images/hamadoun-circle.png" alt="Hamadoun profile picture"></td>
+      <td>
+        <h1>Hamadoun Sidibe</h1>
+        <!-- we should used em instead of i, because em conveys more information and it
+      isn't just about the style. Same for b and strong. Strong conveys meaning
+      In htlm we are concerning about structuring our text not stylize it -->
+        <p><em>Master's in Finance Student & Teaching Assistant</em></p>
+        <p>I am a master's in finance student at HEC Lausanne and a teaching assistant
+          for the Banking & Finance track at HEG Genève. Passionated about finance and
+          programming I am currently looking for an internship in the field of
+          quantitative investments.</p>
+      </td>
+    </tr>
+  </table>
+
+  <!-- horizontal rule. Remark: self closing tag -->
+  <hr>
+
+  <h3>EDUCATIONS</h3>
+  <table cellspacing="20">
+    <tr>
+      <td> <strong>Feb 2019 - Current</strong> <br> Lausanne, Switzerland </td>
+      <td> <strong>HEC Lausanne (UNIL)</strong> <br>
+        <a href="https://www.unil.ch/hec/en/home/menuinst/etudes/masters/finance.html">Master in Finance</a>
+        , Asset and Risk management track
+      </td>
+    </tr>
+    <tr>
+      <td> <strong>Sept 2014 - Jun 2017</strong> <br> Geneva, Switzerland </td>
+      <td> <strong>Geneva School of Business Administration (HEG)</strong> <br>
+        <a href="https://www.hesge.ch/heg/en/core-programmes/bachelors-science/business-administration/banking-finance-specialization">
+          Bachelor of Science in Business Administration</a> / Specialization in Banking & Finance
+      </td>
+    </tr>
+    <tr>
+      <td> <strong>Aug 2015 - Jun 2016</strong> <br> Quebec, Canada </td>
+      <td> <strong>Université de Sherbrooke (UdeS)</strong> <br>
+        <a href="https://www.usherbrooke.ca/admission/programme/142/certificat-en-gestion-financiere#structure/">
+          Certificate in Finance</a> - One year exchange program
+      </td>
+    </tr>
+    <tr>
+      <td> <strong>Aug 2013 - Jun 2014</strong> <br> Geneva, Switzerland </td>
+      <td> <strong>Ecole de commerce André-Chavanne</strong> <br>
+        <a href="https://www.orientation.ch/dyn/show/3309">Professional maturity</a>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3>EXPERIENCES</h3>
+  <!-- When creating table - carefull with DEPRECATED ATTRIBUTE -  no longer
+no longer recommended to use. BCS HTML is for structuring, CSS is for styling
+and javascript is for behaviour-->
+
+  <!-- Creat a table:
+1) creat table tag - table
+2) creat rows - tr
+3) creat cell - td
+4) add header and body  -->
+  <table cellspacing="20">
+    <thead>
+    </thead>
+    <tbody>
+      <tr>
+        <td> <strong>Sept 2018 – Current</strong> <br> Geneva, Switzerland</td>
+        <td> <strong>Banking & Finance Teaching Assistant - 50% </strong><br>
+          Give "Financial Markets" courses to 2nd and 3rd year student </td>
+      </tr>
+      <tr>
+        <td> <strong>Oct 2018 – Apr 2019</strong> <br> Geneva, Switzerland</td>
+        <td> <strong>Check-in Agent for EasyJet</strong><br>
+          Student job</td>
+      </tr>
+      <tr>
+        <td> <strong>Jun 2017 – Jun 2018</strong> <br> Thun, Switzerland</td>
+        <td> <strong>Swiss Armed Forces Sergent</strong><br>
+          Group leader of 8 soldiers in the special forces</td>
+      </tr>
+      <tr>
+        <td> <strong>Jun 2016 – Jun 2017</strong> <br> Geneva, Switzerland</td>
+        <td> <strong>Junior Structured Products Consultant</strong><br>
+          Intern at LakeLand Asset Management SA</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h3>PROJECTS</h3>
+  <table cellspacing="20">
+    <thead>
+    </thead>
+    <tbody>
+      <tr>
+        <td> <strong>Sept 2020 – Current</strong> <br> Lausanne, Switzerland</td>
+        <td> <strong>Robo-advisor</strong><br>
+          Construct a robo-advisor strategy based on tactical asset allocation
+          and trend following - Implemented with Python </td>
+      </tr>
+      <tr>
+        <td> <strong>Feb 2020 – Jun 2020</strong> <br> Lausanne, Switzerland</td>
+        <td> <strong> <a href="projects/QARM_Project_RM.pdf">
+              Principal Component Analysis (PCA) and systematic risk</a></strong><br>
+          Evaluate the recent evolution of systemic risk in the world with a Principal
+          - <em>Implemented with MATLAB</em></td>
+      </tr>
+      <tr>
+        <td> <strong>Feb 2020 – May 2020</strong> <br> Lausanne, Switzerland</td>
+        <td> <strong> <a href="projects/ADA_PROJECT-2.pdf">
+              Twitter sentiment analysis - Predicting Volatility Index (VIX)</a></strong><br>
+          Use mulilayer perceptron to predict the VIX - <em>Implemented with Python</em></td>
+      </tr>
+      <tr>
+        <td> <strong>Nov 2019 – Mar 2020</strong> <br> Lausanne, Switzerland</td>
+        <td> <strong> <a href="projects/QARM_Project_AM">
+              Optimal Responsible Investment</a></strong><br>
+          Efficient frontier construction with ESG Score constraint - <em>Implemented with MATLAB</em></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+  <h3>EXTRACURRICULAR ACTIVITIES</h3>
+  <table cellspacing="20">
+    <thead>
+    </thead>
+    <tbody>
+      <tr>
+        <td> <strong>Feb 2020 – Current</strong> <br> Lausanne, Switzerland</td>
+        <td> <strong> <a href="https://www.investment-society.ch">
+              Investment Society Lausanne</a></strong><br>
+          Healthcare department analyst</td>
+      </tr>
+      <tr>
+        <td> <strong>Jun 2016 – Jun 2017</strong> <br> Geneva, Switzerland</td>
+        <td> <strong>HEG Financial Club</strong><br>
+          Global Macro desk head</td>
+      </tr>
+      <tr>
+        <td> <strong>Aug 2015 – Jun 2016</strong> <br> Quebec, Canada</td>
+        <td> <strong>Université de Sherbrooke soccer team</strong><br>
+          Play high level soccer for the university</td>
+      </tr>
+      <tr>
+        <td> <strong>May 2014</strong> <br> Geneva, Switzerland</td>
+        <td> <strong> <a href="https://www.edm.ch/fr/">Enfant du Monde</a></strong><br>
+          Organized fundraisers to provide basics necessities to impoverished
+          children of Burkina Faso</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+  <h3>IT Skills</h3>
+  <table>
+    <tr>
+      <td>
+        <table cellspacing="10">
+          <tr>
+            <td>MS Office</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>VBA Excel</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>MATLAB</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table cellspacing="10">
+          <tr>
+            <td>Python</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>LaTex</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>SQL</td>
+            <td>⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3>LANGUGES</h3>
+  <table>
+    <thead>
+
+    </thead>
+    <tbody>
+      <tr>
+        <td>French</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Italian</td>
+        <td>⭐⭐</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <a href="hobbies.html">My hobbies</a>
+  <br>
+  <br>
+  <a href="contact.html">Contact Me</a>
+  <br>
+  <br>
+</body>
+
+</html>
